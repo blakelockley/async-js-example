@@ -4,7 +4,7 @@ $('#request-data-button').click(function(){
     // NOTE: Function will continue to execute while async function runs.
 
     $('#request-data-button').detach();
-    $('#message').text('Loading... (2 seconds)');
+    $('#message').text('Loading...');
 });
 
 

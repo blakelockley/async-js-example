@@ -12,7 +12,7 @@ def index():
 def message():
 
     # Simulate a latency on the network
-    time.sleep(2)
+    time.sleep(1)
 
     return jsonify({'message': 'Hello from the API!'})
 
